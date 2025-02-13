@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="11" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-13T11:22:26 IST" name="HybridTestngSuite" finished-at="2025-02-13T11:24:01 IST" duration-ms="95090">
+    <groups>
+    </groups>
+    <test started-at="2025-02-13T11:22:26 IST" name="HybridtestngTestCases" finished-at="2025-02-13T11:24:01 IST" duration-ms="95090">
+      <class name="com.amazon.qa.testcases.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.qa.testcases.LoginTest@36902638]" started-at="2025-02-13T11:23:09 IST" name="setup" finished-at="2025-02-13T11:23:14 IST" duration-ms="5614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verifyloginwithvalidcredentials(java.lang.String,java.lang.String)[pri:1, instance:com.amazon.qa.testcases.LoginTest@36902638]" started-at="2025-02-13T11:23:14 IST" name="Verifyloginwithvalidcredentials" data-provider="sup" finished-at="2025-02-13T11:23:16 IST" duration-ms="1627" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prasanthreddydodda@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Prasanth@447]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifyloginwithvalidcredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.amazon.qa.testcases.LoginTest@36902638]" started-at="2025-02-13T11:23:16 IST" name="teardown" finished-at="2025-02-13T11:23:17 IST" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.qa.testcases.LoginTest@36902638]" started-at="2025-02-13T11:23:17 IST" name="setup" finished-at="2025-02-13T11:23:21 IST" duration-ms="4702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verifyloginwithvalidcredentials(java.lang.String,java.lang.String)[pri:1, instance:com.amazon.qa.testcases.LoginTest@36902638]" started-at="2025-02-13T11:23:21 IST" name="Verifyloginwithvalidcredentials" data-provider="sup" finished-at="2025-02-13T11:23:23 IST" duration-ms="2020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chandukesa9121@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Prasanth@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifyloginwithvalidcredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.amazon.qa.testcases.LoginTest@36902638]" started-at="2025-02-13T11:23:23 IST" name="teardown" finished-at="2025-02-13T11:23:24 IST" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.qa.testcases.LoginTest@36902638]" started-at="2025-02-13T11:23:24 IST" name="setup" finished-at="2025-02-13T11:23:29 IST" duration-ms="5060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyloginwithInvalidcredentials()[pri:2, instance:com.amazon.qa.testcases.LoginTest@36902638]" started-at="2025-02-13T11:23:29 IST" name="VerifyloginwithInvalidcredentials" finished-at="2025-02-13T11:23:30 IST" duration-ms="1417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyloginwithInvalidcredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.amazon.qa.testcases.LoginTest@36902638]" started-at="2025-02-13T11:23:30 IST" name="teardown" finished-at="2025-02-13T11:23:31 IST" duration-ms="471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.qa.testcases.LoginTest@36902638]" started-at="2025-02-13T11:23:31 IST" name="setup" finished-at="2025-02-13T11:23:35 IST" duration-ms="4174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyloginwithInvalidemailandvalidpass()[pri:3, instance:com.amazon.qa.testcases.LoginTest@36902638]" started-at="2025-02-13T11:23:35 IST" name="VerifyloginwithInvalidemailandvalidpass" finished-at="2025-02-13T11:23:36 IST" duration-ms="1640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyloginwithInvalidemailandvalidpass -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.amazon.qa.testcases.LoginTest@36902638]" started-at="2025-02-13T11:23:36 IST" name="teardown" finished-at="2025-02-13T11:23:37 IST" duration-ms="425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.qa.testcases.LoginTest@36902638]" started-at="2025-02-13T11:23:37 IST" name="setup" finished-at="2025-02-13T11:23:42 IST" duration-ms="5200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyloginwithvalidemailandInvalidpass()[pri:4, instance:com.amazon.qa.testcases.LoginTest@36902638]" started-at="2025-02-13T11:23:42 IST" name="VerifyloginwithvalidemailandInvalidpass" finished-at="2025-02-13T11:23:43 IST" duration-ms="1441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyloginwithvalidemailandInvalidpass -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.amazon.qa.testcases.LoginTest@36902638]" started-at="2025-02-13T11:23:43 IST" name="teardown" finished-at="2025-02-13T11:23:44 IST" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.qa.testcases.LoginTest@36902638]" started-at="2025-02-13T11:23:44 IST" name="setup" finished-at="2025-02-13T11:23:49 IST" duration-ms="4840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verifyloginwithnocrdentials()[pri:5, instance:com.amazon.qa.testcases.LoginTest@36902638]" started-at="2025-02-13T11:23:49 IST" name="Verifyloginwithnocrdentials" finished-at="2025-02-13T11:23:49 IST" duration-ms="732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifyloginwithnocrdentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.amazon.qa.testcases.LoginTest@36902638]" started-at="2025-02-13T11:23:49 IST" name="teardown" finished-at="2025-02-13T11:23:50 IST" duration-ms="447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.amazon.qa.testcases.LoginTest -->
+      <class name="com.amazon.qa.testcases.RegisterTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.qa.testcases.RegisterTest@8dbdac1]" started-at="2025-02-13T11:22:26 IST" name="setup" finished-at="2025-02-13T11:22:39 IST" duration-ms="12690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyregisteringmandatoryfields()[pri:1, instance:com.amazon.qa.testcases.RegisterTest@8dbdac1]" started-at="2025-02-13T11:22:39 IST" name="verifyregisteringmandatoryfields" finished-at="2025-02-13T11:22:42 IST" duration-ms="2389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyregisteringmandatoryfields -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.amazon.qa.testcases.RegisterTest@8dbdac1]" started-at="2025-02-13T11:22:42 IST" name="TearDown" finished-at="2025-02-13T11:22:42 IST" duration-ms="591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.qa.testcases.RegisterTest@8dbdac1]" started-at="2025-02-13T11:22:42 IST" name="setup" finished-at="2025-02-13T11:22:48 IST" duration-ms="5656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyregisteringwithallfields()[pri:2, instance:com.amazon.qa.testcases.RegisterTest@8dbdac1]" started-at="2025-02-13T11:22:48 IST" name="verifyregisteringwithallfields" finished-at="2025-02-13T11:22:50 IST" duration-ms="2396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyregisteringwithallfields -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.amazon.qa.testcases.RegisterTest@8dbdac1]" started-at="2025-02-13T11:22:50 IST" name="TearDown" finished-at="2025-02-13T11:22:51 IST" duration-ms="611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.qa.testcases.RegisterTest@8dbdac1]" started-at="2025-02-13T11:22:51 IST" name="setup" finished-at="2025-02-13T11:22:56 IST" duration-ms="5167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyregisteringexistingemailid()[pri:3, instance:com.amazon.qa.testcases.RegisterTest@8dbdac1]" started-at="2025-02-13T11:22:56 IST" name="verifyregisteringexistingemailid" finished-at="2025-02-13T11:22:58 IST" duration-ms="1760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyregisteringexistingemailid -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.amazon.qa.testcases.RegisterTest@8dbdac1]" started-at="2025-02-13T11:22:58 IST" name="TearDown" finished-at="2025-02-13T11:22:58 IST" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.qa.testcases.RegisterTest@8dbdac1]" started-at="2025-02-13T11:22:58 IST" name="setup" finished-at="2025-02-13T11:23:03 IST" duration-ms="4945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyregesteringwithnofields()[pri:4, instance:com.amazon.qa.testcases.RegisterTest@8dbdac1]" started-at="2025-02-13T11:23:03 IST" name="verifyregesteringwithnofields" finished-at="2025-02-13T11:23:07 IST" duration-ms="3924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyregesteringwithnofields -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.amazon.qa.testcases.RegisterTest@8dbdac1]" started-at="2025-02-13T11:23:07 IST" name="TearDown" finished-at="2025-02-13T11:23:08 IST" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.amazon.qa.testcases.RegisterTest -->
+      <class name="com.amazon.qa.testcases.SearchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.qa.testcases.SearchTest@436813f3]" started-at="2025-02-13T11:23:50 IST" name="setup" finished-at="2025-02-13T11:23:54 IST" duration-ms="3728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="enterValidProduct()[pri:1, instance:com.amazon.qa.testcases.SearchTest@436813f3]" started-at="2025-02-13T11:23:54 IST" name="enterValidProduct" finished-at="2025-02-13T11:23:55 IST" duration-ms="1077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterValidProduct -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.amazon.qa.testcases.SearchTest@436813f3]" started-at="2025-02-13T11:23:55 IST" name="TearDown" finished-at="2025-02-13T11:23:55 IST" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.qa.testcases.SearchTest@436813f3]" started-at="2025-02-13T11:23:55 IST" name="setup" finished-at="2025-02-13T11:23:59 IST" duration-ms="4059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="enterINValidProduct()[pri:2, instance:com.amazon.qa.testcases.SearchTest@436813f3]" started-at="2025-02-13T11:23:59 IST" name="enterINValidProduct" finished-at="2025-02-13T11:23:59 IST" duration-ms="45" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy12.sendKeys(Unknown Source)
+at com.utilities.pagafactory.SearchPage.entersearchfiled(SearchPage.java:38)
+at com.amazon.qa.testcases.SearchTest.enterINValidProduct(SearchTest.java:58)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterINValidProduct -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.amazon.qa.testcases.SearchTest@436813f3]" started-at="2025-02-13T11:24:00 IST" name="TearDown" finished-at="2025-02-13T11:24:01 IST" duration-ms="550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method signature="searchwithoutProduct()[pri:3, instance:com.amazon.qa.testcases.SearchTest@436813f3]" started-at="2025-02-13T11:24:01 IST" name="searchwithoutProduct" finished-at="2025-02-13T11:24:01 IST" depends-on-methods="com.amazon.qa.testcases.SearchTest.enterINValidProduct, com.amazon.qa.testcases.SearchTest.enterValidProduct" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.amazon.qa.testcases.SearchTest.searchwithoutProduct() on instance com.amazon.qa.testcases.SearchTest@436813f3 depends on not successfully finished methods 
+[com.amazon.qa.testcases.SearchTest.enterINValidProduct() on instance com.amazon.qa.testcases.SearchTest@436813f3
+com.amazon.qa.testcases.SearchTest.enterValidProduct() on instance com.amazon.qa.testcases.SearchTest@436813f3]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.amazon.qa.testcases.SearchTest.searchwithoutProduct() on instance com.amazon.qa.testcases.SearchTest@436813f3 depends on not successfully finished methods 
+[com.amazon.qa.testcases.SearchTest.enterINValidProduct() on instance com.amazon.qa.testcases.SearchTest@436813f3
+com.amazon.qa.testcases.SearchTest.enterValidProduct() on instance com.amazon.qa.testcases.SearchTest@436813f3]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchwithoutProduct -->
+      </class> <!-- com.amazon.qa.testcases.SearchTest -->
+    </test> <!-- HybridtestngTestCases -->
+  </suite> <!-- HybridTestngSuite -->
+</testng-results>

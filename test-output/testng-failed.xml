@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HybridTestngSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.utilies.listeners.myListners"/>
+  </listeners>
+  <test thread-count="5" name="HybridtestngTestCases(failed)">
+    <classes>
+      <class name="com.amazon.qa.testcases.SearchTest">
+        <methods>
+          <include name="enterValidProduct"/>
+          <include name="setup"/>
+          <include name="TearDown"/>
+          <include name="enterINValidProduct"/>
+          <include name="searchwithoutProduct"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.SearchTest -->
+    </classes>
+  </test> <!-- HybridtestngTestCases(failed) -->
+</suite> <!-- Failed suite [HybridTestngSuite] -->
