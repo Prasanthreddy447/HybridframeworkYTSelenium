@@ -25,6 +25,10 @@ class bee extends bat
 }
 
 
+//process of hiding certain details showing only essential details
+//can have both concrete methods and abstract methods
+
+
 	
 	
 

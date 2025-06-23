@@ -1,16 +1,25 @@
 
 public interface game {
 	
-	//variables are public static final--> when intaite we cannot change
+	//variables are public static final--> when intailize we cannot change
 	//methods are by default public and abstract
 	//interface object cannot be created
+	//interface can have default and static methods
 	
   public void m6();
   public void m7();
   
   public static void m8(){
 	  
+	  System.out.println("concreate");
   }	
+  
+  void m0();
+  
+  default void m1()
+  {
+	  
+  }
 
 }
 
@@ -32,5 +41,10 @@ class ord implements game1
 	
 	public void m9() {
 		System.out.println("m9 method");
+	}
+	
+	public void m0()
+	{
+		
 	}
 }

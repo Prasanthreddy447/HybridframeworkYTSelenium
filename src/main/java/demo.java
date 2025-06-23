@@ -19,4 +19,10 @@ class dem1 extends demo
 		
 		System.out.println(b);
 	}
+	
+	public static void main(String args[])
+	{
+		dem1 d = new dem1();
+		d.sample();
+	}
 }

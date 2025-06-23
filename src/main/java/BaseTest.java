@@ -47,6 +47,8 @@ class GoogleSearchTest extends BaseTest {
 
         // Open Google page
         test.openGoogle();
+        
+        
 
         // Close the browser
         test.tearDown();

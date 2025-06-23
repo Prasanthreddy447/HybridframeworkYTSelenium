@@ -27,6 +27,7 @@ public class LoginTest extends Base {
 		//invoke();
 		
 		driver= LaunchingBrowserandopeningurl(prop.getProperty("browserName"));
+		//driver= LaunchingBrowserandopeningurl(prop.);
 		homapage home = new homapage(driver);
 		home.clickonaccountmenu();
 		home.clickonliginoption();

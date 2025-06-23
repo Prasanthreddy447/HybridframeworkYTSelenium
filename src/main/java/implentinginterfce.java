@@ -8,7 +8,8 @@ public class implentinginterfce {
 		u.m6();
 		u.m7();
 		u.m9();
-		
+	
+	
 		game.m8();
 
 	}

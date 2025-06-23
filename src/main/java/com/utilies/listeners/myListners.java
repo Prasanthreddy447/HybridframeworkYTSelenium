@@ -27,7 +27,7 @@ import com.utilities.reuasble.reuasable;
 //onTestFailure(): invoked on the failure of a test
 //onTestSkipped(): invoked when a test is skipped
 //onTestFailedButWithinSuccessPercentage(): invoked whenever a method fails but within the defined success percentage
-//onFinish(): invoked after all tests of a class are executedThe above-mentioned methods use the parameters ITestContext and ITestResult. 
+//onFinish(): invoked after all tests of a class are executed. The above-mentioned methods use the parameters ITestContext and ITestResult. 
 //The ITestContext is a class that contains information about the test run. 
 //The ITestResult is an interface that defines the result of the test.
 
@@ -78,6 +78,8 @@ public class myListners implements ITestListener{
 		test.log(Status.INFO,result.getThrowable());
 		test.log(Status.FAIL,result.getName()+"excution Fail");
 		
+	
+		
 	}
 	
 	public void onTestSkipped(ITestResult result)
@@ -100,6 +102,8 @@ public class myListners implements ITestListener{
 			e.printStackTrace();
 		}
 	}
+	
+	
 	
 
 }

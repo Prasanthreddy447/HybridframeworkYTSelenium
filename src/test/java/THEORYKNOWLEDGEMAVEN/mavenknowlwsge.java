@@ -16,16 +16,17 @@ public class mavenknowlwsge {
 		//no testng file will run on context so no reporting and no screenshot
 		
 		//2 way through eclipse
-		//add maven surefir e plugin to pom.xml which contains tesng.xml file in it
+		//add maven surefire plugin to pom.xml which contains tesng.xml file in it
 		//add testname as test at end in testng.xml file
-		//then run that project run as maven test it automacally invoke pom.aml and testng.xml file
+		//then run that project run as maven test it automacally invoke pom.xml and testng.xml file
 		//reports and screenshot will be coming
 		
 		//3 way through command prompt
 		 //close eclipse and open the project location and see pom exist 
 		//and through cmd run the command mvn test
 		//to run this we need mvn in local machine
-		//
+		//download maven and environment varaibles add maven_Home
+		
 		
 		
 		//above three ways we are doing manually.

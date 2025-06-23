@@ -15,6 +15,7 @@ public class implentationofabstract {
 		//but can create objects for child class which are extending parent 
 		
 		bee b = new bee();
+		
 		}
 
 }
