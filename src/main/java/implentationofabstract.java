@@ -10,11 +10,15 @@ public class implentationofabstract {
 		//cannot create objects for abstract classes
 //		sam d = new sam();
 //		
-//		bat d = new bat();
+		//bat d = new bat();
 		
 		//but can create objects for child class which are extending parent 
 		
-		bee b = new bee();
+		//bee b = new bee();   --> all classess access
+		
+		//sam d = new bee();  --> only parent class methods 
+		
+		
 		
 		}
 

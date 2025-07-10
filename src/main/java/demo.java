@@ -24,5 +24,6 @@ class dem1 extends demo
 	{
 		dem1 d = new dem1();
 		d.sample();
+		sample2();
 	}
 }

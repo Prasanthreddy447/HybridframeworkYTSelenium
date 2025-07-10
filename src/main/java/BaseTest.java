@@ -52,6 +52,8 @@ class GoogleSearchTest extends BaseTest {
 
         // Close the browser
         test.tearDown();
+        
+        
     }
 }
 

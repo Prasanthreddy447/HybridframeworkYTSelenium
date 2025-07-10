@@ -26,3 +26,32 @@ public class AccountPage {
 	}
 
 }
+
+//pagefactory is class provided by selenium and used in POM model
+//by using init elements we intilize web elements
+// helps to create object repositories for webelements
+//helps to reduce duplications
+//helps to improve code readibility
+//by @findby to locate elemnets by locators
+
+
+//@FindBys()---> When the required WebElement objects need to match all of the given criteria use @FindBys annotation
+
+//@FindAll : When required WebElement objects need to match at least one of the given criteria use @FindAll annotation
+
+/*
+
+@FindBys( {
+   @FindBy(className = "class1")
+   @FindBy(className = "class2")
+} )
+private List<WebElement> elementsWithBoth_class1ANDclass2;
+
+
+@FindAll( {
+   @FindBy(className = "class1")
+   @FindBy(className = "class2")
+} )
+private List<WebElement> elementsWithBoth_class1ANDclass2;
+
+*/

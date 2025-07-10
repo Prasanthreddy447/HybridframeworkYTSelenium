@@ -9,8 +9,8 @@ public class Jenkinsknowledge {
 		//go to file location and open cmd prompt and run the command java -jar jenkins.war
 		//for first time we need to copy password (right click edit copy)
 		//we need go to localhost:8080 (localhost means our current machine ip address)
-		//we can run the jenkins differnt port also for that we use command java -jar jenkins.war --httpport portnumber
-		//then install plugins
+		//we can run the jenkins differnt port also for that we use command java -jar jenkins.war --httpPort=portnumber
+		//then installED Suggested plugins
 		//now goto manage jenkins and tools and add javahome path and maven homepath
 		//1)Create job using freestyle project
 		//new item--> use custom workspace(general)-->in directory(path of project)
@@ -20,7 +20,7 @@ public class Jenkinsknowledge {
 		//no testng report because we need install plugin
 		
 		//insall plugin -->manage jenkins--> plugins-->availbale plugins-->testng
-		//we need click on configure of job and in post action build we need add testng
+		//we need click on configure of job and in post action build we need add testng(publish testng results)
 		//now testng results tab will be coming and we can view the results
 		//testng tab comes in build versions
 		

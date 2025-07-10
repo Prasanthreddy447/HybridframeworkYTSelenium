@@ -71,7 +71,7 @@ public class reuasable {
 					data[i][j]=Integer.toString((int)(cell.getNumericCellValue()));
 					break;
 					
-					case BOOLEAN:
+				case BOOLEAN:
 						data[i][j]=cell.getBooleanCellValue();
 						break;
 						

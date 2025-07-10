@@ -27,6 +27,7 @@ class bee extends bat
 
 //process of hiding certain details showing only essential details
 //can have both concrete methods and abstract methods
+//cannot create object for absrect class but we can create for child class
 
 
 	

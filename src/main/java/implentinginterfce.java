@@ -11,6 +11,9 @@ public class implentinginterfce {
 	
 	
 		game.m8();
+		
+		game g = new ord();
+		
 
 	}
 

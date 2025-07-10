@@ -1,6 +1,6 @@
 
 public interface game {
-	
+	//Interface is collection of abstract methods
 	//variables are public static final--> when intailize we cannot change
 	//methods are by default public and abstract
 	//interface object cannot be created
