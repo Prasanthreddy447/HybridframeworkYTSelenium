@@ -45,7 +45,7 @@ public class Casting {
 					        
 					        Dog d = (Dog)animal; --> down casting
 					        
-					        Cat cat = (Cat) animal; // ClassCastException here
+					        Cat cat = (Cat) animal; // ClassCasteException here
 					        
 					        cat.makeSound(); // This line won't be reached due to the exception
 					    }

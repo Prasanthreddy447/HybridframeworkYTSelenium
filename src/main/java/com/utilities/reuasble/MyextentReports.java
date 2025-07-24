@@ -54,11 +54,7 @@ public class MyextentReports implements ITestListener {
 		extentReport.setSystemInfo("javaversion", System.getProperty("java.version"));
 		extentReport.setSystemInfo("username", System.getProperty("user.name"));
 		
-		return extentReport;
-		
-		
-		
-		
+		return extentReport;	
 		
 	}
 

@@ -42,11 +42,12 @@ public class mavenknowlwsge {
 		 what is use maven in selenium?
 		 
 		 maven is used for adding dependencies automatically
-		 when we add dependencies in POM then it jar files automatically downloaded
+		 when we add dependencies in POM then it jar files automatically downloaded in maven dependencies folder
 		 
 		 maven provides standard structure project
 		 
 		 maven automates build process, which is compiling the code and running the tests automatically
+		 ex: mvn test --> it automaticsally run the code
 		 
 		 we can integrae the ci/cd tools like jenkins
 		 

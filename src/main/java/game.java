@@ -5,6 +5,9 @@ public interface game {
 	//methods are by default public and abstract
 	//interface object cannot be created
 	//interface can have default and static methods
+	//child class should implement interface
+	//uses implmenets keyword
+	//we can create objects for child classes
 	
   public void m6();
   public void m7();

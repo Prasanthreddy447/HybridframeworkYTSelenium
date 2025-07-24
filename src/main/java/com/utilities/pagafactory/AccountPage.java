@@ -28,7 +28,7 @@ public class AccountPage {
 }
 
 //pagefactory is class provided by selenium and used in POM model
-//by using init elements we intilize web elements
+//by using init elements method we intilize web elements
 // helps to create object repositories for webelements
 //helps to reduce duplications
 //helps to improve code readibility

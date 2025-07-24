@@ -8,11 +8,14 @@ public class implentinginterfce {
 		u.m6();
 		u.m7();
 		u.m9();
+		u.m0();
 	
 	
 		game.m8();
 		
 		game g = new ord();
+		
+		
 		
 
 	}
